@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CCImage - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP1AB.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/CCImage.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\codes\ForCpp\CCImage\CCImage.cpp"
+"E:\codes\ForCpp\CCImage\CCImageDoc.cpp"
+"E:\codes\ForCpp\CCImage\CCImageView.cpp"
+"E:\codes\ForCpp\CCImage\FFT.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP1AB.tmp" 
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP1AC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/CCImage.pdb" /machine:I386 /out:"Release/CCImage.exe" 
+.\Release\CCImage.obj
+.\Release\CCImageDoc.obj
+.\Release\CCImageView.obj
+.\Release\ChildFrm.obj
+.\Release\Dib.obj
+.\Release\DlgGeomZoom.obj
+.\Release\DlgHistography.obj
+.\Release\DlgSetAngle.obj
+.\Release\DlgSetOffset.obj
+.\Release\FFT.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\CCImage.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP1AC.tmp"
+<h3>Output Window</h3>
+Compiling...
+CCImage.cpp
+CCImageDoc.cpp
+CCImageView.cpp
+E:\codes\ForCpp\CCImage\CCImageView.cpp(1266) : warning C4018: '>=' : signed/unsigned mismatch
+FFT.cpp
+E:\codes\ForCpp\CCImage\FFT.cpp(223) : warning C4018: '<' : signed/unsigned mismatch
+E:\codes\ForCpp\CCImage\FFT.cpp(283) : warning C4018: '<' : signed/unsigned mismatch
+E:\codes\ForCpp\CCImage\FFT.cpp(313) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CCImage.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
